@@ -42,9 +42,3 @@ This wiki explains our proposed use of BMAD with Rally and GitHub Copilot. Our d
 ## The codebase problem this workflow addresses
 
 An existing application may contain legacy behavior alongside a partial newer implementation. Agents must locate both, identify what remains to be built, and establish where each change belongs before implementation. New files may be appropriate; duplicating existing behavior or putting new behavior in the wrong area is not.
-
-## Working agreement
-
-**Authorize → produce evidence → human review → approve the exact revision → separately authorize the next phase.** Reading a wiki page does not authorize tool use. Paste only its marked prompt when you intend to begin that work.
-
-These pages are a reviewable draft. They have not been execution-tested against the enterprise Copilot installation. [Pilot checklist](Maintaining-the-Wiki.md).
