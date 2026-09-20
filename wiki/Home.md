@@ -1,7 +1,5 @@
 # BMAD team wiki
 
-**Status:** Draft for team review | **BMAD baseline:** 6.12.0 | **Reviewed:** September 20, 2026
-
 ## What is BMAD?
 
 BMAD is the **Breakthrough Method of Agile AI-driven Development**. It adds reusable skills and specialist agent roles to an AI coding environment, helping a team clarify requirements, investigate an existing system, design changes, implement them, and review the result. It can support analysis without writing code, as well as software delivery.
@@ -12,9 +10,7 @@ This wiki explains our proposed use of BMAD with Rally and GitHub Copilot. Our d
 
 ## Start here
 
-**Trying BMAD for your role?** Start with [Role guides](Role-Guides.md) for BA, Product Owner/PM, QA, UX, Technical Lead/Architect, Scrum Master/Delivery Lead, and Release/DevOps examples.
-
-**Delivering a developer story?** Follow this sequence:
+**Delivering a story?** Follow this sequence:
 
 1. [Install BMAD](Installation.md) in the project, or verify an existing setup.
 2. Open [Master template](Master-Template.md), fill the configuration, and paste its prompt once in a new chat.
