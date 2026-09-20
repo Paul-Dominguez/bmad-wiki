@@ -4,7 +4,7 @@ Personal sandbox for testing BMAD wiki documentation, role guides, and developer
 
 ## Start here
 
-**[Open the BMAD handbook](wiki/Home.md)**
+**[Open the BMAD Wiki](https://github.com/Paul-Dominguez/bmad-wiki/wiki)**
 
 - [Installation](wiki/Installation.md)
 - [Agents](wiki/Agents.md)
@@ -17,9 +17,7 @@ The handbook contains 25 content pages plus sidebar and footer files. It targets
 
 ## Repository documentation and GitHub Wiki
 
-The Markdown pages are readable directly in this private repository. GitHub was not retaining the Wiki feature as enabled at import time; the separate Wiki has not been published.
-
-Private Wikis require a supported paid GitHub plan. See [GitHub Wiki availability](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis). Repository visibility remains private.
+The handbook is published in the [GitHub Wiki](https://github.com/Paul-Dominguez/bmad-wiki/wiki). This repository is public and retains the Markdown source pages in `wiki/` for review and maintenance.
 
 ## Edit and export
 
@@ -27,6 +25,6 @@ Edit the pages in `wiki/`. Internal links use `.md` so navigation works in the r
 
 Run `python tools/export_wiki.py` to validate local page links and regenerate [BMAD-GitHub-Wiki.zip](BMAD-GitHub-Wiki.zip). The export converts internal links to GitHub Wiki routes and places all pages at the archive root.
 
-Once the separate Wiki is available, create its initial Home page, clone its `.wiki.git` repository, reconcile the exported files with any existing pages, and publish through the normal Git workflow. Do not copy repository-formatted pages directly without converting their links.
+To update the live Wiki, clone `https://github.com/Paul-Dominguez/bmad-wiki.wiki.git`, reconcile the exported files with any existing pages, and commit and push to its `master` branch. Do not copy repository-formatted pages directly without converting their links.
 
 No BMAD installation or application workflow is executed by these documentation files.
