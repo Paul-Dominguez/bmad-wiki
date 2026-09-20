@@ -1,12 +1,10 @@
 # BMAD team wiki
 
-[Home](Home.md) · [Developer workflow](Developer-Workflow.md)
-
 **Status:** Draft for team review | **BMAD baseline:** 6.12.0 | **Reviewed:** September 20, 2026
 
 ## What is BMAD?
 
-BMAD is the **Breakthrough Method of Agile AI-driven Development**. It adds reusable skills and specialist agent roles to an AI coding environment, helping a team clarify requirements, investigate an existing system, design changes, implement them, and review the result. It can support analysis without writing code, as well as software delivery. [Project definition](https://github.com/bmad-code-org/BMAD-METHOD/blob/v6.12.0/package.json), [official introduction](https://docs.bmad-method.org/)
+BMAD is the **Breakthrough Method of Agile AI-driven Development**. It adds reusable skills and specialist agent roles to an AI coding environment, helping a team clarify requirements, investigate an existing system, design changes, implement them, and review the result. It can support analysis without writing code, as well as software delivery.
 
 Think of an **agent** as a specialist role, a **skill** as the capability you invoke, and an **artifact** as the reviewable result. The **LLM** is the model running the work. Choosing an agent and choosing a model are separate decisions.
 
