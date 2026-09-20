@@ -26,15 +26,15 @@ An agent is a role with instructions and a menu. A workflow skill performs a tas
 
 ## Choose an agent
 
-| Your immediate question | Start with | In our developer workflow |
-| --- | --- | --- |
-| What business behavior is being requested, and what is unclear? | Mary | Phase 1 |
-| Is the scope coherent, valuable, and testable? | John | Phase 1B |
-| What does the repository actually contain? | Amelia | Phase 2 |
-| Where should this behavior belong, and how should components connect? | Winston | Phase 3 |
-| What should the user experience during the interaction? | Sally | Focused support for Phase 3 |
-| What exact code and test changes deliver the approved behavior? | Amelia | Phases 4 and 5 |
-| Does the actual implementation meet the original intent? | Separate reviewer using the review capability | Phase 6 |
+| Your immediate question | Start with |
+| --- | --- |
+| What business behavior is being requested, and what is unclear? | Mary |
+| Is the scope coherent, valuable, and testable? | John |
+| What does the repository actually contain? | Amelia |
+| Where should this behavior belong, and how should components connect? | Winston |
+| What should the user experience during the interaction? | Sally |
+| What exact code and test changes deliver the approved behavior? | Amelia |
+| Does the actual implementation meet the original intent? | Separate reviewer using the review capability |
 
 This is a routing aid, not a requirement to run every agent. A supporting question may be answered within an authorized phase without creating another artifact or spawning another agent.
 
